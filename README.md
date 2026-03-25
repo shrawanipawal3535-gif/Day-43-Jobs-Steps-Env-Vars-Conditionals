@@ -45,3 +45,13 @@ In a workflow, add:
    - A step that only runs when the previous step failed
    - A job that only runs on push events, not on pull requests
    - A step with continue-on-error: true — what does this do?
+
+     <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4706c085-962f-4e49-83f7-6f1fae89cd72" />
+
+### Task 5: Putting It Together
+
+Create .github/workflows/smart-pipeline.yml that:
+
+  - Triggers on push to any branch
+  - Has a lint job and a test job running in parallel
+  - Has a summary job that runs after both, prints whether it's a main branch push or a feature branch push, and prints the commit message
