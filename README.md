@@ -25,3 +25,11 @@ In a new workflow, use environment variables at 3 levels:
 Print all three in a single step and verify each is accessible.
 
 Then use a GitHub context variable — print the commit SHA and the actor (who triggered the run).
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/da7016c3-4d72-47c2-902f-c4b91d9f2efe" />
+
+### Task 3: Job Outputs
+
+   - Create a job that sets an output — e.g., today's date as a string
+   - Create a second job that reads that output and prints it
+   - Pass the value using outputs: and needs.<job>.outputs.<name>
