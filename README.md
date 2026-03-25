@@ -33,3 +33,15 @@ Then use a GitHub context variable — print the commit SHA and the actor (who t
    - Create a job that sets an output — e.g., today's date as a string
    - Create a second job that reads that output and prints it
    - Pass the value using outputs: and needs.<job>.outputs.<name>
+
+   <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0ea74393-3050-4af9-97d7-5299253f86d8" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/892ede83-8166-4514-8cbc-6a34cd73292c" />
+
+## Task 4: Conditionals
+
+In a workflow, add:
+
+   - A step that only runs when the branch is main
+   - A step that only runs when the previous step failed
+   - A job that only runs on push events, not on pull requests
+   - A step with continue-on-error: true — what does this do?
