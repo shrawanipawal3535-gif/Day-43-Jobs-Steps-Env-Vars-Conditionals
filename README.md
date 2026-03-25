@@ -55,3 +55,8 @@ Create .github/workflows/smart-pipeline.yml that:
   - Triggers on push to any branch
   - Has a lint job and a test job running in parallel
   - Has a summary job that runs after both, prints whether it's a main branch push or a feature branch push, and prints the commit message
+
+    <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/82f31763-62a1-408c-9272-906e23cb93c3" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8d59d3b9-ccf5-42d5-ac92-fe328d9c02ad" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/547794bd-48cd-453f-99a0-19f08c45af5a" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3e2689fa-a562-49a1-919b-f48b9ac0d748" />
